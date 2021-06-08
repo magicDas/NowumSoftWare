@@ -104,31 +104,28 @@
                 <h3 class="section-form-title">Jetzt kontakt aufnehmen</h3>
                 <div class="form-contacts">
                     <div class="contact-item">
-                        <img src="images/icons/phone-call.svg" alt="">
-                        <a href="tel:123456789">1 23 45 6789</a>
+                        <a class="section-form__contact-phone" href="tel:123456789">1 23 45 6789</a>
                     </div>
                     <div class="contact-item">
-                        <img src="images/icons/smartphone.svg" alt="">
-                        <a href="tel:123456789">1 23 45 6789</a>
+                        <a class="section-form__contact-smart" href="tel:123456789">1 23 45 6789</a>
                     </div>
                     <div class="contact-item">
-                        <img src="images/icons/mail.svg" alt="">
-                        <a href="#">mail@mail.com</a>
+                        <a class="section-form__contact-email" href="#">mail@mail.com</a>
                     </div>
                 </div>
                 <p class="section-form-desc">Rfahre mehr über uns, unsere Leistungen und die vielfältigen Möglichkeiten, die wir dir eröffnen können.</p>
                 <form action="#" class="form-container">
                     <div class="form-input__name">
-                        <img src="images/icons/form-user.svg" alt="form-user">
+                        <img  class="form-container__img" src="images/content/icon-user.svg" alt="form-user">
                         <input type="text" placeholder="Name*">
                     </div>
                     <div class="form-input__phone">
-                        <img src="images/icons/form-phone.svg" alt="form-phone">
-                        <input type="text" placeholder="Rückrufnummer">
+                        <img class="form-container__img" src="images/content/icon_phone-call.svg" alt="form-phone">
+                        <input type="number" placeholder="Rückrufnummer">
                     </div>
                     <div class="form-input__mail">
-                        <img src="images/icons/form-mail.svg" alt="form-mail">
-                        <input type="text" placeholder="E-MAIL-Adresse*">
+                        <img class="form-container__img" src="images/content/icon-email.png" alt="form-mail">
+                        <input type="email" placeholder="E-MAIL-Adresse*">
                     </div>
                     <textarea class="form-input__message" id="" cols="30" rows="3" placeholder="Deine nachticht......"></textarea>
                     <div class="form-input__checkbox">
@@ -313,6 +310,7 @@
                     <button class="slider-card-prev"><img src="images/icons/arrow-slider.svg" alt="arrow-slider"></button>
                     <button class="slider-card-next"><img src="images/icons/arrow-slider.svg" alt="arrow-slider"></button>
                 </div>
+                <button class="section-card__btn section-button">Lasse dich jetzt beraten</button>
             </div>
         </section>
     
@@ -545,93 +543,97 @@
     <footer class="site-footer">
         <div class="container">
             <h3 class="section-title">Sie finden uns</h3>
-            <iframe class="footer-maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d82213.05560703673!2d8.407677701211485!3d49.914609550596545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47bd9d7563b1b24f%3A0x422435029b09bf0!2z0JPRgNC-0YEt0JPQtdGA0LDRgywg0JPQtdGA0LzQsNC90LjRjw!5e0!3m2!1sru!2sua!4v1622407821843!5m2!1sru!2sua" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20553.39346286322!2d8.469476385337558!3d49.91430557053617!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47bd9d7563b1b24f%3A0x422435029b09bf0!2z0JPRgNC-0YEt0JPQtdGA0LDRgywg0JPQtdGA0LzQsNC90LjRjw!5e0!3m2!1sru!2sua!4v1623135936154!5m2!1sru!2sua" width="100%" height="409" style="border:0;" allowfullscreen="" loading="lazy"></iframe>         
             <div class="site-footer-blocks">
-                <div class="tFooter">
-                    <div class="container">
-                        <div class="footer-contact">
-                            <h5 class="section-title">Kontaktieren sie uns</h5>
-                            <p class="footer-text">Gerne sind wir auch persönlich für Sie ansprechbar. Wir freuen uns auf Ihre Anfrage.</p>
-                            <div class="contact-item">
-                                <img src="images/icons/phone-call.svg" alt="">
-                                <a class="footer-text" href="tel:123456789">1 23 45 6789</a>
-                            </div>
-                            <div class="contact-item">
-                                <img src="images/icons/smartphone.svg" alt="">
-                                <a class="footer-text" href="tel:123456789">1 23 45 6789</a>
-                            </div>
-                            <div class="contact-item">
-                                <img src="images/icons/map.svg" alt="">
-                                <a class="footer-text" href="#">google item link</a>
-                            </div>
-                            <div class="contact-item">
-                                <img src="images/icons/mail.svg" alt="">
-                                <a class="footer-text" href="#">mail@mail.com</a>
-                            </div>
+                <div class="site-footer-blocks__items _one">
+                    <div class="site-footer-block__item footer-contact">
+                        <h5 class="section-title">Kontaktieren sie uns</h5>
+                        <p class="footer-text">Gerne sind wir auch persönlich für Sie ansprechbar. Wir freuen uns auf Ihre Anfrage.</p>
+                        <div class="contact-item">
+                            <a class="contact-item__phone footer-text" href="tel:123456789">1 23 45 6789</a>
                         </div>
-                        <div class="footer-subject">
-                            <h5 class="section-title">Themen</h5>
-                            <ul class="footer-menu">
-                                <li><a class="footer-text" href="#">Chatbots</a></li>
-                                <li><a class="footer-text" href="#">Shopware plugins</a></li>
-                            </ul>
+                        <div class="contact-item">
+                            <a class="contact-item__smart footer-text" href="tel:123456789">1 23 45 6789</a>
                         </div>
-                        <div class="footer-info">
-                            <h5 class="section-title">Infortationen</h5>
-                            <ul class="footer-menu">
-                                <li><a class="footer-text" href="#">Impressum</a></li>
-                                <li><a class="footer-text" href="#">Cookies</a></li>
-                            </ul>
+                        <div class="contact-item">
+                            <a class="contact-item__location footer-text" href="#">google item link</a>
                         </div>
-                        <div class="footer-service">
-                            <h5 class="section-title">leistungen</h5>
-                            <ul class="footer-menu">
-                                <li><a class="footer-text" href="#">Shopware / e-Commerce</a></li>
-                                <li><a class="footer-text" href="#">Suchmaschinenoptimierung</a></li>
-                                <li><a class="footer-text" href="#">Google Ads Marketing</a></li>
-                                <li><a class="footer-text" href="#">Webdesign / Webdevelopment</a></li>
-                            </ul>
+                        <div class="contact-item">
+                            <a class="contact-item__email footer-text" href="#">mail@mail.com</a>
+                        </div>
+                    </div>
+                    <div class="site-footer-block__item footer-subject">
+                        <h5 class="section-title">Themen</h5>
+                        <ul class="footer-menu">
+                            <li><a class="footer-text" href="#">Chatbots</a></li>
+                            <li><a class="footer-text" href="#">Shopware plugins</a></li>
+                        </ul>
+                    </div>
+                    <div class="site-footer-block__item footer-info">
+                        <h5 class="section-title">Infortationen</h5>
+                        <ul class="footer-menu">
+                            <li><a class="footer-text" href="#">Impressum</a></li>
+                            <li><a class="footer-text" href="#">Cookies</a></li>
+                        </ul>
+                    </div>
+                    <div class="site-footer-block__item footer-service">
+                        <h5 class="section-title">leistungen</h5>
+                        <ul class="footer-menu">
+                            <li><a class="footer-text" href="#">Shopware / e-Commerce</a></li>
+                            <li><a class="footer-text" href="#">Suchmaschinenoptimierung</a></li>
+                            <li><a class="footer-text" href="#">Google Ads Marketing</a></li>
+                            <li><a class="footer-text" href="#">Webdesign / Webdevelopment</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="site-footer-blocks__items _two">
+                    <div class="site-footer-block__item footer-about">
+                        <h5 class="section-title">Über uns</h5>
+                        <p class="footer-text">Spezialisiert auf individuelle Konzeption, anspruchsvolle Gestaltung und professionelle Umsetzung Ihres Markenauftritts. Erfahren Sie mehr über uns und unsere Arbeit als Medienagentur.</p>
+                        <button class="footer-btn section-button">Read more</button>
+                    </div>
+                    <div class="site-footer-block__item footer-reviews">
+                        <h5 class="section-title">Bewertungen</h5>
+                        <ul class="footer-stars">
+                            <li><img src="images/icons/star.svg" alt="star"></li>
+                            <li><img src="images/icons/star.svg" alt="star"></li>
+                            <li><img src="images/icons/star.svg" alt="star"></li>
+                            <li><img src="images/icons/star.svg" alt="star"></li>
+                            <li><img src="images/icons/star.svg" alt="star"></li>
+                        </ul>
+                        <a class="footer-stars-text" href="#">12 Bewertungen auf Google My Business</a>
+                    </div>
+                    <div class="site-footer-block__item footer-sociale">
+                        <h5 class="section-title">Folgen sie uns</h5>
+                        <div class="footer-sociales-items">
+                            <a class="footer-sociales-item" href="#">
+                                <img class="footer-sociale-img" src="images/content/facebook.svg" alt="facebook">
+                            </a>
+                            <a class="footer-sociales-item" href="#">
+                                <img class="footer-sociale-img" src="images/content/tweetter.svg" alt="twetter">
+                            </a>
+                            <a class="footer-sociales-item" href="#">
+                                <img class="footer-sociale-img" src="images/content/linkiden.svg" alt="linkdelin">
+                            </a>
+                            <a class="footer-sociales-item" href="#">
+                                <img class="footer-sociale-img" src="images/content/instagram.svg" alt="instagram">
+                            </a>
+                            <a class="footer-sociales-item" href="#">
+                                <img class="footer-sociale-img" src="images/content/watsapp.svg" alt="watsapp">
+                            </a>
                         </div>
                     </div>
                 </div>
-                <div class="cFooter">
-                    <div class="container">
-                        <div class="footer-about">
-                            <h5 class="section-title">Über uns</h5>
-                            <p class="footer-text">Spezialisiert auf individuelle Konzeption, anspruchsvolle Gestaltung und professionelle Umsetzung Ihres Markenauftritts. Erfahren Sie mehr über uns und unsere Arbeit als Medienagentur.</p>
-                            <button class="footer-btn section-button">Read more</button>
-                        </div>
-                        <div class="footer-reviews">
-                            <h5 class="section-title">Bewertungen</h5>
-                            <ul class="footer-stars">
-                                <li><img src="images/icons/star.svg" alt=""></li>
-                                <li><img src="images/icons/star.svg" alt=""></li>
-                                <li><img src="images/icons/star.svg" alt=""></li>
-                                <li><img src="images/icons/star.svg" alt=""></li>
-                                <li><img src="images/icons/star.svg" alt=""></li>
-                            </ul>
-                            <a class="footer-stars-text" href="#">12 Bewertungen auf Google My Business</a>
-                        </div>
-                        <div class="footer-sociale">
-                            <h5 class="section-title">Folgen sie uns</h5>
-                            <div class="footer-sociales-items">
-                                <a class="footer-sociales-item" href="#"><img class="footer-sociale-img" src="images/sociale/1.svg" alt="sociale"></a>
-                                <a class="footer-sociales-item" href="#"><img class="footer-sociale-img" src="images/sociale/2.svg" alt="sociale"></a>
-                                <a class="footer-sociales-item" href="#"><img class="footer-sociale-img" src="images/sociale/3.svg" alt="sociale"></a>
-                                <a class="footer-sociales-item" href="#"><img class="footer-sociale-img" src="images/sociale/4.svg" alt="sociale"></a>
-                                <a class="footer-sociales-item" href="#"><img class="footer-sociale-img" src="images/sociale/5.svg" alt="sociale"></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="footer-madeby">
-                        <div class="madeby-line"></div>
-                        <div class="madeby-text">
-                            <span>Made with</span>
-                            <img src="images/icons/like.svg" alt="">
-                            <span>by novum-software</span>
-                        </div>
-                    </div>
+            </div>    
+            <div>
+            <div class="footer-madeby">
+                <div class="madeby-line"></div>
+                <div class="madeby-text">
+                    <span>Made with</span>
+                    <img src="images/icons/like.svg" alt="">
+                    <span>by novum-software</span>
                 </div>
+            </div>
                 <div class="bFooter">
                     <ul class="exec-menu">
                         <li><a href="#">Shopware Agentur</a></li>
@@ -646,7 +648,6 @@
         </div>
     </footer>
 </div>
-<!--    <script src="js/glider.min.js"></script>-->
     <script src="js/main.min.js"></script>
   </body>
 </html>
