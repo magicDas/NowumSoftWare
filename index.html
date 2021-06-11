@@ -1,102 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Novum - Software</title>
-<!--
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/glider.min.css" />
--->
-    <link rel="stylesheet" href="css/style.min.css" />
-   <!-- <link rel="stylesheet" href="css/main-page.css">-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
+    <title>Novum Software</title>
+    <link rel="stylesheet" href="css/style.min.css">
   </head>
   <body>
 
 <div class="wrapper">
 
-    <header class="site-header">
+    <header class="header-main">
         <div class="container">
-            <a href="#" class="header-logo">
-                <img src="images/logo.svg" alt="logo">
-            </a>
-            <ul class="header-menu">
-                <li>
-                    <a href="#"><img src="images/icons/homepage.svg" alt="homepage"></a>
-                </li>
-                <li>
-                    <a href="#">Über uns</a>
-                </li>
-                <li>
-                    <a href="#">Liestungen</a>
-                </li>
-                <li>
-                    <a href="#">Team</a>
-                </li>
-                <li>
-                    <a href="#">Contact</a>
-                </li>
-            </ul>
-            <ul class="header-lang">
-                <li><a href="#">DE</a></li><span>/</span>
-                <li><a href="#" class="active">EN</a></li>
-            </ul>
+            <div class="header__inner">
+                <button class="header__btn-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                    <a href="#" class="logo">
+                        <img src="images/logo.svg" alt="logo">
+                    </a>
+                    <nav class="menu">
+                        <ul class="menu__list">
+                            <li class="menu__list-item home-link">
+                                <a class="menu__list-link" href="#"><img src="images/icons/homepage.svg" alt="homepage"></a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a class="menu__list-link" href="#">Über uns</a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a class="menu__list-link" href="#">Liestungen</a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a class="menu__list-link" href="#">Team</a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a class="menu__list-link" href="#">Contact</a>
+                            </li>
+                        </ul>                        
+                    </nav>
+                    <ul class="header-lang">
+                        <li><a href="#">DE</a></li><span>/</span>
+                        <li><a href="#" class="active">EN</a></li>
+                    </ul>
+            </div>
+            <div class="section-slider">            
+                <div class="main-slider">
+                    <div class="slider-item">                         
+                        <img class="slider-item-img" src="images/main-bg.jpg" alt="slider-img">                            
+                        <div class="item-content">
+                            <h2 class="item-title section-title">Advanced custom software development<br />Support Business processes</h2>
+                            <p class="item-desc">We help companies to remain completitive and to win custimers through customized designs, individuality, and highlighted USPs.</p>
+                            <button class="item-btn section-button">Read more</button>
+                        </div>   
+                    </div>
+                    <div class="slider-item">                         
+                        <img class="slider-item-img" src="images/main-bg.jpg" alt="slider-img">                            
+                        <div class="item-content">
+                            <h2 class="item-title section-title">Advanced custom software development<br />Support Business processes</h2>
+                            <p class="item-desc">We help companies to remain completitive and to win custimers through customized designs, individuality, and highlighted USPs.</p>
+                            <button class="item-btn section-button">Read more</button>
+                        </div>   
+                    </div>
+                    <div class="slider-item">                         
+                        <img class="slider-item-img" src="images/main-bg.jpg" alt="slider-img">                            
+                        <div class="item-content">
+                            <h2 class="item-title section-title">Advanced custom software development<br />Support Business processes</h2>
+                            <p class="item-desc">We help companies to remain completitive and to win custimers through customized designs, individuality, and highlighted USPs.</p>
+                            <button class="item-btn section-button">Read more</button>
+                        </div>   
+                    </div>
+                    <div class="slider-item">                         
+                        <img class="slider-item-img" src="images/main-bg.jpg" alt="slider-img">                            
+                        <div class="item-content">
+                            <h2 class="item-title section-title">Advanced custom software development<br />Support Business processes</h2>
+                            <p class="item-desc">We help companies to remain completitive and to win custimers through customized designs, individuality, and highlighted USPs.</p>
+                            <button class="item-btn section-button">Read more</button>
+                        </div>   
+                    </div>
+                </div>
+        
+                <div class="main-slider-usage">
+                    <a href="#" class="main-arrow"><img src="images/icons/arrow_down.png" alt="arrow down"></a>
+                </div>
+            </div>
         </div>
     </header>
 
-    <main class="main">
-        <div class="container">
-
-            <div class="section-main">            
-               <div class="main-slider">
-                    <div class="slider-item">                         
-                        <img class="slider-item-img" src="images/main-bg.jpg" alt="slider-img">                            
-                        <div class="item-content">
-                            <h2 class="item-title section-title">Advanced custom software development<br />Support Business processes</h2>
-                            <p class="item-desc">We help companies to remain completitive and to win custimers through customized designs, individuality, and highlighted USPs.</p>
-                            <button class="item-btn section-button">Read more</button>
-                        </div>   
-                    </div>
-                    <div class="slider-item">                         
-                        <img class="slider-item-img" src="images/main-bg.jpg" alt="slider-img">                            
-                        <div class="item-content">
-                            <h2 class="item-title section-title">Advanced custom software development<br />Support Business processes</h2>
-                            <p class="item-desc">We help companies to remain completitive and to win custimers through customized designs, individuality, and highlighted USPs.</p>
-                            <button class="item-btn section-button">Read more</button>
-                        </div>   
-                    </div>
-                    <div class="slider-item">                         
-                        <img class="slider-item-img" src="images/main-bg.jpg" alt="slider-img">                            
-                        <div class="item-content">
-                            <h2 class="item-title section-title">Advanced custom software development<br />Support Business processes</h2>
-                            <p class="item-desc">We help companies to remain completitive and to win custimers through customized designs, individuality, and highlighted USPs.</p>
-                            <button class="item-btn section-button">Read more</button>
-                        </div>   
-                    </div>
-                    <div class="slider-item">                         
-                        <img class="slider-item-img" src="images/main-bg.jpg" alt="slider-img">                            
-                        <div class="item-content">
-                            <h2 class="item-title section-title">Advanced custom software development<br />Support Business processes</h2>
-                            <p class="item-desc">We help companies to remain completitive and to win custimers through customized designs, individuality, and highlighted USPs.</p>
-                            <button class="item-btn section-button">Read more</button>
-                        </div>   
-                    </div>
-                      
-                     
-               </div>
-        
-              <div class="main-slider-usage">
-                <div class="container">
-                    <div class="empty"></div>
-                    <a href="#" class="main-arrow"><img src="images/icons/arrow_down.png" alt="" /></a>
-                    <div role="tablist" class="main-slider-dots"></div>
-                </div>
-              </div>
-            </div>
-    
-        </div>
+    <main class="main">        
     
         <section class="section-form">            
             <div class="container">
@@ -163,19 +157,19 @@
             </div>
         </section>
         
-        <section class="section-short">
-            <div class="container">
+        <section class="section-short">            
+            <div class="container">     
+                <div class="short-content">
+                    <span class="short-desc section-title">Short Company description</span>
+                    <button class="short-btn section-button">See More</button>
+                </div>           
                 <div class="short-item">
                     <img class="short-item-img" src="images/short-1.jpg" alt="short-1">
                     <div class="section-overlay"></div>
                 </div>
                 <div class="short-item">
                     <img class="short-item-img"  src="images/short-2.jpg" alt="short-2">
-                    <div class="section-overlay"></div>
-                    <div class="short-content">
-                        <span class="short-desc section-title">Short Company description</span>
-                        <button class="short-btn section-button">See More</button>
-                    </div>
+                    <div class="section-overlay"></div>                    
                 </div>
                 <div class="short-item">
                     <img class="short-item-img"  src="images/short-3.jpg" alt="short-3">
@@ -188,23 +182,29 @@
             <div class="container">
                 <h3 class="section-form-title">Title name block</h3>
                 <div class="section-features-items">
-                    <div class="feature-item">
-                        <img class="feature-img" src="images/icons/feature-1.svg" alt="">
-                        <h4 class="feature-title">Why we are better than the others?</h4>
-                        <p class="feature-desc">Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition... </p>
-                        <button class="feature-btn section-button">Read More</button>
+                    <div>
+                        <div class="feature-item">
+                            <img class="feature-img" src="images/icons/feature-1.svg" alt="better">
+                            <h4 class="feature-title">Why we are better than the others?</h4>
+                            <p class="feature-desc">Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition... </p>
+                            <button class="feature-btn section-button">Read More</button>
+                        </div>
                     </div>
-                    <div class="feature-item">
-                        <img class="feature-img" src="images/icons/feature-2.svg" alt="">
-                        <h4 class="feature-title">E-shops development</h4>
-                        <p class="feature-desc">Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology along ...</p>
-                        <button class="feature-btn section-button">Read More</button>
+                    <div>
+                        <div class="feature-item">
+                            <img class="feature-img" src="images/icons/feature-2.svg" alt="e-shop">
+                            <h4 class="feature-title">E-shops development</h4>
+                            <p class="feature-desc">Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology along ...</p>
+                            <button class="feature-btn section-button">Read More</button>
+                        </div>
                     </div>
-                    <div class="feature-item">
-                        <img class="feature-img" src="images/icons/feature-3.svg" alt="">
-                        <h4 class="feature-title">Other services</h4>
-                        <p class="feature-desc">Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion ...</p>
-                        <button class="feature-btn section-button">Read More</button>
+                    <div>
+                        <div class="feature-item">
+                            <img class="feature-img" src="images/SEO.svg" alt="seo">
+                            <h4 class="feature-title">Other services</h4>
+                            <p class="feature-desc">Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion ...</p>
+                            <button class="feature-btn section-button">Read More</button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -226,89 +226,103 @@
     
                 <div class="card-slider-wrap">
                     <div class="card-slider">
-                        <div class="slider-item">
-                            <div class="item-content">
-                                <img class="item-content-img" src="images/card/card-1.jpg" alt="">
-                                <div class="item-text">
-                                    <h4 class="item-title">Referenz 1 Referenz 1 Referenz 1</h4>
-                                    <p class="item-desc">I don't know what you did, Fry, but once again, you screwed up! Now all the planets are gonna start cracking wise about our mamas. Professor, make a woman out of me. I don't want to be rescued. What's with you kids? </p>
-                                    <button class="item-button section-button">Read More</button>
+                        <div>
+                            <div class="slider-item">
+                                <div class="item-content">
+                                    <img class="item-content-img" src="images/card/card-1.jpg" alt="">
+                                    <div class="item-text">
+                                        <h4 class="item-title">Referenz 1 Referenz 1 Referenz 1</h4>
+                                        <p class="item-desc">I don't know what you did, Fry, but once again, you screwed up! Now all the planets are gonna start cracking wise about our mamas. Professor, make a woman out of me. I don't want to be rescued. What's with you kids? </p>
+                                        <button class="item-button section-button">Read More</button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="slider-item">
-                            <div class="item-content">
-                                <img src="images/card/card-2.jpg" alt="">
-                                <div class="item-text">
-                                    <h4 class="item-title">Referenz 1 Referenz 1 Referenz 1</h4>
-                                    <p class="item-desc">I don't know what you did, Fry, but once again, you screwed up! Now all the planets are gonna start cracking wise about our mamas. Professor, make a woman out of me. I don't want to be rescued. What's with you kids? </p>
-                                    <button class="item-button section-button">Read More</button>
+                        <div>
+                            <div class="slider-item">
+                                <div class="item-content">
+                                    <img src="images/card/card-2.jpg" alt="">
+                                    <div class="item-text">
+                                        <h4 class="item-title">Referenz 1 Referenz 1 Referenz 1</h4>
+                                        <p class="item-desc">I don't know what you did, Fry, but once again, you screwed up! Now all the planets are gonna start cracking wise about our mamas. Professor, make a woman out of me. I don't want to be rescued. What's with you kids? </p>
+                                        <button class="item-button section-button">Read More</button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="slider-item">
-                            <div class="item-content">
-                                <img src="images/card/card-3.jpg" alt="">
-                                <div class="item-text">
-                                    <h4 class="item-title">Referenz 1 Referenz 1 Referenz 1</h4>
-                                    <p class="item-desc">I don't know what you did, Fry, but once again, you screwed up! Now all the planets are gonna start cracking wise about our mamas. Professor, make a woman out of me. I don't want to be rescued. What's with you kids? </p>
-                                    <button class="item-button section-button">Read More</button>
+                        <div>
+                            <div class="slider-item">
+                                <div class="item-content">
+                                    <img src="images/card/card-3.jpg" alt="">
+                                    <div class="item-text">
+                                        <h4 class="item-title">Referenz 1 Referenz 1 Referenz 1</h4>
+                                        <p class="item-desc">I don't know what you did, Fry, but once again, you screwed up! Now all the planets are gonna start cracking wise about our mamas. Professor, make a woman out of me. I don't want to be rescued. What's with you kids? </p>
+                                        <button class="item-button section-button">Read More</button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="slider-item">
-                            <div class="item-content">
-                                <img src="images/card/card-4.jpg" alt="">
-                                <div class="item-text">
-                                    <h4 class="item-title">Referenz 1 Referenz 1 Referenz 1</h4>
-                                    <p class="item-desc">I don't know what you did, Fry, but once again, you screwed up! Now all the planets are gonna start cracking wise about our mamas. Professor, make a woman out of me. I don't want to be rescued. What's with you kids? </p>
-                                    <button class="item-button section-button">Read More</button>
+                        <div>
+                            <div class="slider-item">
+                                <div class="item-content">
+                                    <img src="images/card/card-4.jpg" alt="">
+                                    <div class="item-text">
+                                        <h4 class="item-title">Referenz 1 Referenz 1 Referenz 1</h4>
+                                        <p class="item-desc">I don't know what you did, Fry, but once again, you screwed up! Now all the planets are gonna start cracking wise about our mamas. Professor, make a woman out of me. I don't want to be rescued. What's with you kids? </p>
+                                        <button class="item-button section-button">Read More</button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="slider-item">
-                            <div class="item-content">
-                                <img src="images/card/card-1.jpg" alt="">
-                                <div class="item-text">
-                                    <h4 class="item-title">Referenz 1 Referenz 1 Referenz 1</h4>
-                                    <p class="item-desc">I don't know what you did, Fry, but once again, you screwed up! Now all the planets are gonna start cracking wise about our mamas. Professor, make a woman out of me. I don't want to be rescued. What's with you kids? </p>
-                                    <button class="item-button section-button">Read More</button>
+                        <div>
+                            <div class="slider-item">
+                                <div class="item-content">
+                                    <img src="images/card/card-1.jpg" alt="">
+                                    <div class="item-text">
+                                        <h4 class="item-title">Referenz 1 Referenz 1 Referenz 1</h4>
+                                        <p class="item-desc">I don't know what you did, Fry, but once again, you screwed up! Now all the planets are gonna start cracking wise about our mamas. Professor, make a woman out of me. I don't want to be rescued. What's with you kids? </p>
+                                        <button class="item-button section-button">Read More</button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="slider-item">
-                            <div class="item-content">
-                                <img src="images/card/card-2.jpg" alt="">
-                                <div class="item-text">
-                                    <h4 class="item-title">Referenz 1 Referenz 1 Referenz 1</h4>
-                                    <p class="item-desc">I don't know what you did, Fry, but once again, you screwed up! Now all the planets are gonna start cracking wise about our mamas. Professor, make a woman out of me. I don't want to be rescued. What's with you kids? </p>
-                                    <button class="item-button section-button">Read More</button>
+                        <div>
+                            <div class="slider-item">
+                                <div class="item-content">
+                                    <img src="images/card/card-2.jpg" alt="">
+                                    <div class="item-text">
+                                        <h4 class="item-title">Referenz 1 Referenz 1 Referenz 1</h4>
+                                        <p class="item-desc">I don't know what you did, Fry, but once again, you screwed up! Now all the planets are gonna start cracking wise about our mamas. Professor, make a woman out of me. I don't want to be rescued. What's with you kids? </p>
+                                        <button class="item-button section-button">Read More</button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="slider-item">
-                            <div class="item-content">
-                                <img src="images/card/card-3.jpg" alt="">
-                                <div class="item-text">
-                                    <h4 class="item-title">Referenz 1 Referenz 1 Referenz 1</h4>
-                                    <p class="item-desc">I don't know what you did, Fry, but once again, you screwed up! Now all the planets are gonna start cracking wise about our mamas. Professor, make a woman out of me. I don't want to be rescued. What's with you kids? </p>
-                                    <button class="item-button section-button">Read More</button>
+                        <div>
+                            <div class="slider-item">
+                                <div class="item-content">
+                                    <img src="images/card/card-3.jpg" alt="">
+                                    <div class="item-text">
+                                        <h4 class="item-title">Referenz 1 Referenz 1 Referenz 1</h4>
+                                        <p class="item-desc">I don't know what you did, Fry, but once again, you screwed up! Now all the planets are gonna start cracking wise about our mamas. Professor, make a woman out of me. I don't want to be rescued. What's with you kids? </p>
+                                        <button class="item-button section-button">Read More</button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="slider-item">
-                            <div class="item-content">
-                                <img src="images/card/card-4.jpg" alt="">
-                                <div class="item-text">
-                                    <h4 class="item-title">Referenz 1 Referenz 1 Referenz 1</h4>
-                                    <p class="item-desc">I don't know what you did, Fry, but once again, you screwed up! Now all the planets are gonna start cracking wise about our mamas. Professor, make a woman out of me. I don't want to be rescued. What's with you kids? </p>
-                                    <button class="item-button section-button">Read More</button>
+                        <div>
+                            <div class="slider-item">
+                                <div class="item-content">
+                                    <img src="images/card/card-4.jpg" alt="">
+                                    <div class="item-text">
+                                        <h4 class="item-title">Referenz 1 Referenz 1 Referenz 1</h4>
+                                        <p class="item-desc">I don't know what you did, Fry, but once again, you screwed up! Now all the planets are gonna start cracking wise about our mamas. Professor, make a woman out of me. I don't want to be rescued. What's with you kids? </p>
+                                        <button class="item-button section-button">Read More</button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <button class="slider-card-prev"><img src="images/icons/arrow-slider.svg" alt="arrow-slider"></button>
-                    <button class="slider-card-next"><img src="images/icons/arrow-slider.svg" alt="arrow-slider"></button>
+                    </div>                    
                 </div>
                 <button class="section-card__btn section-button">Lasse dich jetzt beraten</button>
             </div>
@@ -327,72 +341,85 @@
                 </div>
                 <div class="shopware-slider-wrap">
                     <div class="shopware-slider">
-                        <div class="slider-item">
-                            <div class="item-content">
-                                <img src="images/shopware-3.png" alt="shopware">
-                                <div class="item-text">
-                                    <span>Certified</span>
-                                    <strong>Template Designer</strong>
+                        <div>
+                            <div class="slider-item">
+                                <div class="item-content">
+                                    <img src="images/shopware-3.png" alt="shopware">
+                                    <div class="item-text">
+                                        <span>Certified</span>
+                                        <strong>Template Designer</strong>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="slider-item">
-                            <div class="item-content">
-                                <img src="images/shopware-3.png" alt="shopware">
-                                <div class="item-text">
-                                    <span>Certified</span>
-                                    <strong>Template Designer</strong>
+                        <div>
+                            <div class="slider-item">
+                                <div class="item-content">
+                                    <img src="images/shopware-3.png" alt="shopware">
+                                    <div class="item-text">
+                                        <span>Certified</span>
+                                        <strong>Template Designer</strong>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="slider-item">
-                            <div class="item-content">
-                                <img src="images/shopware-3.png" alt="shopware">
-                                <div class="item-text">
-                                    <span>Certified</span>
-                                    <strong>Template Designer</strong>
+                        <div>
+                            <div class="slider-item">
+                                <div class="item-content">
+                                    <img src="images/shopware-3.png" alt="shopware">
+                                    <div class="item-text">
+                                        <span>Certified</span>
+                                        <strong>Template Designer</strong>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="slider-item">
-                            <div class="item-content">
-                                <img src="images/shopware-3.png" alt="shopware">
-                                <div class="item-text">
-                                    <span>Certified</span>
-                                    <strong>Template Designer</strong>
+                        <div>
+                            <div class="slider-item">
+                                <div class="item-content">
+                                    <img src="images/shopware-3.png" alt="shopware">
+                                    <div class="item-text">
+                                        <span>Certified</span>
+                                        <strong>Template Designer</strong>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="slider-item">
-                            <div class="item-content">
-                                <img src="images/shopware-3.png" alt="shopware">
-                                <div class="item-text">
-                                    <span>Certified</span>
-                                    <strong>Template Designer</strong>
+                        <div>
+                            <div class="slider-item">
+                                <div class="item-content">
+                                    <img src="images/shopware-3.png" alt="shopware">
+                                    <div class="item-text">
+                                        <span>Certified</span>
+                                        <strong>Template Designer</strong>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="slider-item">
-                            <div class="item-content">
-                                <img src="images/shopware-3.png" alt="shopware">
-                                <div class="item-text">
-                                    <span>Certified</span>
-                                    <strong>Template Designer</strong>
+                        <div>
+                            <div class="slider-item">
+                                <div class="item-content">
+                                    <img src="images/shopware-3.png" alt="shopware">
+                                    <div class="item-text">
+                                        <span>Certified</span>
+                                        <strong>Template Designer</strong>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="slider-item">
-                            <div class="item-content">
-                                <img src="images/shopware-3.png" alt="shopware">
-                                <div class="item-text">
-                                    <span>Certified</span>
-                                    <strong>Template Designer</strong>
+                        <div>
+                            <div class="slider-item">
+                                <div class="item-content">
+                                    <img src="images/shopware-3.png" alt="shopware">
+                                    <div class="item-text">
+                                        <span>Certified</span>
+                                        <strong>Template Designer</strong>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <button class="slider-shopware-prev"><img src="images/icons/arrow-slider.svg" alt="arrow-slider"></button>
-                    <button class="slider-shopware-next"><img src="images/icons/arrow-slider.svg" alt="arrow-slider"></button>
+                    
                 </div>
             </div>
         </section>
@@ -406,77 +433,80 @@
 
                 <div class="comments-slider-wrap">
                     <div class="comments-slider">
-                        <div class="slider-item">
-                            <div class="item-content">
-                                <p class="item-desc">«Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo.»</p>
-                                <div class="item-person">
-                                    <img src="images/comment-person.jpg" alt="">
-                                    <span>Valentin Kataev</span>
-                                    <ul class="item-stars">
-                                        <li><img src="images/icons/star.svg" alt=""></li>
-                                        <li><img src="images/icons/star.svg" alt=""></li>
-                                        <li><img src="images/icons/star.svg" alt=""></li>
-                                        <li><img src="images/icons/star.svg" alt=""></li>
-                                        <li><img src="images/icons/star.svg" alt=""></li>
-                                    </ul>
+                        <div>
+                            <div class="slider-item">
+                                <div class="item-content">
+                                    <p class="item-desc">«Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo.»</p>
+                                    <div class="item-person">
+                                        <img src="images/comment-person.jpg" alt="">
+                                        <span>Valentin Kataev</span>
+                                        <ul class="item-stars">
+                                            <li><img src="images/icons/star.svg" alt=""></li>
+                                            <li><img src="images/icons/star.svg" alt=""></li>
+                                            <li><img src="images/icons/star.svg" alt=""></li>
+                                            <li><img src="images/icons/star.svg" alt=""></li>
+                                            <li><img src="images/icons/star.svg" alt=""></li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="slider-item">
-                            <div class="item-content">
-                                <p class="item-desc">«Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo.»</p>
-                                <div class="item-person">
-                                    <img src="images/comment-person.jpg" alt="">
-                                    <span>Valentin Kataev</span>
-                                    <ul class="item-stars">
-                                        <li><img src="images/icons/star.svg" alt=""></li>
-                                        <li><img src="images/icons/star.svg" alt=""></li>
-                                        <li><img src="images/icons/star.svg" alt=""></li>
-                                        <li><img src="images/icons/star.svg" alt=""></li>
-                                        <li><img src="images/icons/star.svg" alt=""></li>
-                                    </ul>
+                        <div>
+                            <div class="slider-item">
+                                <div class="item-content">
+                                    <p class="item-desc">«Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo.»</p>
+                                    <div class="item-person">
+                                        <img src="images/comment-person.jpg" alt="">
+                                        <span>Valentin Kataev</span>
+                                        <ul class="item-stars">
+                                            <li><img src="images/icons/star.svg" alt=""></li>
+                                            <li><img src="images/icons/star.svg" alt=""></li>
+                                            <li><img src="images/icons/star.svg" alt=""></li>
+                                            <li><img src="images/icons/star.svg" alt=""></li>
+                                            <li><img src="images/icons/star.svg" alt=""></li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="slider-item">
-                            <div class="item-content">
-                                <p class="item-desc">«Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo.»</p>
-                                <div class="item-person">
-                                    <img src="images/comment-person.jpg" alt="">
-                                    <span>Valentin Kataev</span>
-                                    <ul class="item-stars">
-                                        <li><img src="images/icons/star.svg" alt=""></li>
-                                        <li><img src="images/icons/star.svg" alt=""></li>
-                                        <li><img src="images/icons/star.svg" alt=""></li>
-                                        <li><img src="images/icons/star.svg" alt=""></li>
-                                        <li><img src="images/icons/star.svg" alt=""></li>
-                                    </ul>
+                        <div>
+                            <div class="slider-item">
+                                <div class="item-content">
+                                    <p class="item-desc">«Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo.»</p>
+                                    <div class="item-person">
+                                        <img src="images/comment-person.jpg" alt="">
+                                        <span>Valentin Kataev</span>
+                                        <ul class="item-stars">
+                                            <li><img src="images/icons/star.svg" alt=""></li>
+                                            <li><img src="images/icons/star.svg" alt=""></li>
+                                            <li><img src="images/icons/star.svg" alt=""></li>
+                                            <li><img src="images/icons/star.svg" alt=""></li>
+                                            <li><img src="images/icons/star.svg" alt=""></li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="slider-item">
-                            <div class="item-content">
-                                <p class="item-desc">«Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo.»</p>
-                                <div class="item-person">
-                                    <img src="images/comment-person.jpg" alt="">
-                                    <span>Valentin Kataev</span>
-                                    <ul class="item-stars">
-                                        <li><img src="images/icons/star.svg" alt=""></li>
-                                        <li><img src="images/icons/star.svg" alt=""></li>
-                                        <li><img src="images/icons/star.svg" alt=""></li>
-                                        <li><img src="images/icons/star.svg" alt=""></li>
-                                        <li><img src="images/icons/star.svg" alt=""></li>
-                                    </ul>
+                        <div>
+                            <div class="slider-item">
+                                <div class="item-content">
+                                    <p class="item-desc">«Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo.»</p>
+                                    <div class="item-person">
+                                        <img src="images/comment-person.jpg" alt="">
+                                        <span>Valentin Kataev</span>
+                                        <ul class="item-stars">
+                                            <li><img src="images/icons/star.svg" alt=""></li>
+                                            <li><img src="images/icons/star.svg" alt=""></li>
+                                            <li><img src="images/icons/star.svg" alt=""></li>
+                                            <li><img src="images/icons/star.svg" alt=""></li>
+                                            <li><img src="images/icons/star.svg" alt=""></li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <button class="slider-comments-prev"><img src="images/icons/arrow-slider.svg" alt=""></button>
-                    <button class="slider-comments-next"><img src="images/icons/arrow-slider.svg" alt=""></button>
                 </div>
-                
-                <div class="comments-slider-dots" role="tablist"></div>
-                    
             </div>
         </section>
     
@@ -564,21 +594,21 @@
                     </div>
                     <div class="site-footer-block__item footer-subject">
                         <h5 class="section-title">Themen</h5>
-                        <ul class="footer-menu">
+                        <ul class="footer-box">
                             <li><a class="footer-text" href="#">Chatbots</a></li>
                             <li><a class="footer-text" href="#">Shopware plugins</a></li>
                         </ul>
                     </div>
                     <div class="site-footer-block__item footer-info">
                         <h5 class="section-title">Infortationen</h5>
-                        <ul class="footer-menu">
+                        <ul class="footer-box">
                             <li><a class="footer-text" href="#">Impressum</a></li>
                             <li><a class="footer-text" href="#">Cookies</a></li>
                         </ul>
                     </div>
                     <div class="site-footer-block__item footer-service">
                         <h5 class="section-title">leistungen</h5>
-                        <ul class="footer-menu">
+                        <ul class="footer-box">
                             <li><a class="footer-text" href="#">Shopware / e-Commerce</a></li>
                             <li><a class="footer-text" href="#">Suchmaschinenoptimierung</a></li>
                             <li><a class="footer-text" href="#">Google Ads Marketing</a></li>
@@ -624,29 +654,31 @@
                         </div>
                     </div>
                 </div>
-            </div>    
-            <div>
+            </div>   
             <div class="footer-madeby">
                 <div class="madeby-line"></div>
                 <div class="madeby-text">
                     <span>Made with</span>
-                    <img src="images/icons/like.svg" alt="">
+                    <img src="images/icons/like.svg" alt="img">
                     <span>by novum-software</span>
                 </div>
             </div>
-                <div class="bFooter">
-                    <ul class="exec-menu">
-                        <li><a href="#">Shopware Agentur</a></li>
-                        <li><a href="#">Shopware Agentur</a></li>
-                        <li><a href="#">Shopware Agentur</a></li>
-                        <li><a href="#">Shopware Agentur</a></li>
-                        <li><a href="#">Shopware Agentur</a></li>
-                        <li><a href="#">Shopware Agentur</a></li>
-                    </ul>
-                </div>
+            <div class="bFooter">
+                <ul class="exec-menu">
+                    <li><a href="#">Shopware Agentur</a></li>
+                    <li><a href="#">Shopware Agentur</a></li>
+                    <li><a href="#">Shopware Agentur</a></li>
+                    <li><a href="#">Shopware Agentur</a></li>
+                    <li><a href="#">Shopware Agentur</a></li>
+                    <li><a href="#">Shopware Agentur</a></li>
+                </ul>
             </div>
         </div>
     </footer>
+
+
+<div class="scrolltop"><i class="icon-angle-up"></i></div>
+
 </div>
     <script src="js/main.min.js"></script>
   </body>
